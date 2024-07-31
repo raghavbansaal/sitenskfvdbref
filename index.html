@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Assignment</title>
+</head>
+<body>
+    <h1>Username - raghav</h1>
+    <h1>Password - bansal</h1>
+    <h1>Chd</h1>
+    <h1>Punjab</h1>
+    <h1>Haryana</h1>
+    <div class="buttoni">
+        <button onclick="loginnow()">Click Here</button>
+    </div>
+    <script type="text/javascript">
+        function loginnow(){
+            var input= prompt("Enter your location:");
+            switch (input){
+                case "Chd":
+                    alert("Allowed");
+                    window.location.href="next1.html";
+                    break;
+                case "Punjab":
+                    alert("Allowed");
+                    window.location.href="next3.html";
+                    break;
+                case "Haryana":
+                    alert("Allowed");
+                    window.location.href="next2.html";
+                    break;
+                default:
+                    alert("Not Allowed");
+            }
+        }
+    </script>
+</body>
+</html>
